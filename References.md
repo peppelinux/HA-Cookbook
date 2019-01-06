@@ -9,7 +9,18 @@
 
 #### haproxy
 - http://www.haproxy.org/#cont
+- http://www.haproxy.org/#docs
+- https://serversforhackers.com/c/load-balancing-with-haproxy
+- https://github.com/georgemihalcea/ldapcheck
+- https://www.howtoforge.com/tutorial/how-to-setup-haproxy-as-load-balancer-for-mariadb-on-centos-7/
+##### others to view
 - https://certsimple.com/blog/haproxy-http2-dynamic-load-balancing-ssl
 - https://blog.seeweb.it/haproxy-bilanciare-richieste-http/
 - https://www.linode.com/docs/uptime/loadbalancing/how-to-use-haproxy-for-load-balancing/
-- http://www.haproxy.org/#docs
+
+
+# OpenLDAP 
+- https://www.openldap.org/doc/admin24/replication.html
+- https://tylersguides.com/guides/openldap-multi-master-replication/
+- https://www.itzgeek.com/how-tos/linux/centos-how-tos/configure-openldap-multi-master-replication-linux.html
+- https://linoxide.com/linux-how-to/install-openldap-2-different-hosts-configure-mirror-mode/

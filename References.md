@@ -24,3 +24,6 @@
 - https://tylersguides.com/guides/openldap-multi-master-replication/
 - https://www.itzgeek.com/how-tos/linux/centos-how-tos/configure-openldap-multi-master-replication-linux.html
 - https://linoxide.com/linux-how-to/install-openldap-2-different-hosts-configure-mirror-mode/
+
+readonly slave:
+- https://www.secure-computing.net/wiki/index.php/OpenLDAP/replication

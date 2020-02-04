@@ -40,7 +40,7 @@ backend ldap-636-origin
         timeout connect 5s
         option tcpka
         option tcp-check
-        tcp-check connect port 389
+        tcp-check connect port 636 ssl
         tcp-check send-binary 300c0201 # LDAP bind request "<ROOT>" simple
         tcp-check send-binary 01 # message ID
         tcp-check send-binary 6007 # protocol Op

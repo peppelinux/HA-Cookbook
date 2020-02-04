@@ -22,7 +22,7 @@ service rsyslog restart
 LDAP Configuration
 ````
 frontend ldap-636
-        bind 192.168.27.27:636 ssl crt /etc/ssl/certs/ldap.ha/ldap.ha-cert-key.pem  no-sslv3 no-tlsv10 ciphers ECDH+AESGCM:DH+AESGCM:ECDH+AES256:DH+AES256:ECDH+AES128:DH+AES:ECDH+3DES:DH+3DES:RSA+AESGCM:RSA+AES:RSA+3DES:!aNULL:!MD5:!DSS
+        bind 0.0.0.0:636 ssl crt /etc/ssl/certs/ldap.ha/ldap.ha-cert-key.pem  no-sslv3 no-tlsv10 ciphers ECDH+AESGCM:DH+AESGCM:ECDH+AES256:DH+AES256:ECDH+AES128:DH+AES:ECDH+3DES:DH+3DES:RSA+AESGCM:RSA+AES:RSA+3DES:!aNULL:!MD5:!DSS
         mode tcp
         option socket-stats
         option tcplog
